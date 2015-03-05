@@ -3,12 +3,51 @@
 <html>
 <title>Getting Started with Google Classroom</title>
 
+<!-- Mobile support -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Twitter Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Material Design for Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.2/css/material-wfont.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.2.2/css/ripples.min.css" rel="stylesheet">
+
+<!-- Dropdown.js -->
+<link href="https://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
+
+<!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="colours.css">
+
 <style>
     .img-responsive{
         display: block;
         margin: auto;
     }
 </style>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" style="background-color: #F44336; color: #fff; border:none;"> 
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" style="color:#fff; font-family: "RobotoDraft", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300;" href="https://domhnallohanlon.github.io">Domhnall's Projects</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav" >
+            <li><a href="https://twitter.com" style="color: #fff"target="_blank">Twitter</a></li>
+            <li><a href="https://linkedin.com" style="color: #fff" target="_blank">LinkedIn</a></li>
+        </ul>
+        <form class="navbar-form navbar-left">
+            <input type="text" class="form-control col-lg-8" placeholder="Search">
+        </form>
+</div>
+</div> <!-- navbar -->
 <xmp theme="superhero" style="display:none;" toc-top-link>
 
 ### classroom.google.com
